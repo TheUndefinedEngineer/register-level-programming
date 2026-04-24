@@ -10,7 +10,7 @@
 void Reset_handler(void);
 
 //Vector table
-uint32_t vectors[] = {
+uint32_t vectors[] __attribute__((section (".isr_vector"))) = {
 	STACK_START,
 	(uint32_t)&Reset_handler,
 };

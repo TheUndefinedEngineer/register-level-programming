@@ -4,7 +4,7 @@ CFLAGS= -c -mcpu=$(MACH) -mthumb -std=gnu11 -Wall -o0
 
 all:stm32f401_startup.o
 
-stm32f401_startup.0:stm32f401_startup.c
+stm32f401_startup.o:stm32f401_startup.c
 	$(CC) -c $(CFLAGS) $^ -o $@
 
 clean:
