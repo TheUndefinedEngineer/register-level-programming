@@ -7,14 +7,20 @@
 
 #define STACK_START SRAM_END
 
-void Reset_handler(void);
+void Reset_Handler(void);
 
 //Vector table
 uint32_t vectors[] __attribute__((section (".isr_vector"))) = {
 	STACK_START,
-	(uint32_t)&Reset_handler,
+	(uint32_t)&Reset_Handler,
+	(uint32_t)&NMI_Handler,
+
 };
 
-void Reset_handler(void){
+void Default_Handler(void){
+
+}
+
+void Reset_Handler(void){
 
 }
