@@ -1,7 +1,7 @@
 # Register Level Programming
-I created this repo to keep track of progress and my project files. My goal is get a deeper understanding of how embedded systems work under all the abstraction layers so, I took up on my selfto learn register-level-programming using a two-wheeled self balancing bot which I made for learning STM32 and I think it is the perfect pick.
+I created this repo to keep track of progress and my project files. My goal is get a deeper understanding of how embedded systems work under all the abstraction layers so, I took it upon my self to learn register-level-programming using a two-wheeled self balancing bot which I made for learning STM32 and I think it is the perfect pick.
 
-To build good habits and decrease my dependance on AI am going to mainly stick with the reference manuals, data sheets, online courses and forms but I will be using AI to understand these concepts better and increase my efficieny.
+To build good habits and reduce my dependence on AI, am going to mainly stick with the reference manuals, data sheets, online courses and forums but I will be using AI to understand these concepts better and increase my efficieny.
 
 ## Project Hardware
 - STM32F401CCU6
@@ -11,7 +11,7 @@ To build good habits and decrease my dependance on AI am going to mainly stick w
 - TB6612FNG Motor Driver
 
 ### Pin Connections
-MPU 6500
+**MPU 6500**
 | PIN | STM32 |
 |-----|-------|
 | VCC | 3.3V  |
@@ -20,7 +20,7 @@ MPU 6500
 | INT | PC13  |
 | ADO | GND   |
 
-TB6612FNG
+**TB6612FNG**
 | PIN | STM32 |
 |-----|-------|
 | AIN1| PB3   |
@@ -37,7 +37,7 @@ TB6612FNG
 | BO1 | M2.1 |
 | BO2 | M2.2 |
 
-Motors
+**Motors**
 | Motor | Pin | STM32 |
 |-------|-----|-------|
 | Motor1 | C1 | PA2 |
@@ -56,5 +56,5 @@ Motors
 - arm-none-eabi-gcc
 
 ## Current Progress
-- I have went through the refernce manual - sections 2,3,5,6 and 8(a little).
+- I have gone through the reference manual - sections 2,3,5,6 and 8(a little).
 - Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment.
