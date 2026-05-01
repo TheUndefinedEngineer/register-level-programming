@@ -11,15 +11,23 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - TB6612FNG Motor Driver
 
 ### Pin Connections
+**MPU 6500**
+| PIN | STM32 |
+|-----|-------|
+| VCC | 3.3V  |
+| SCL | PB8   |
+| SDA | PB9   |
+| INT | PC13  |
+| ADO | GND   |
 
-**TB6612FNG**           **MPU 6500**
-| PIN | STM32 |         | PIN | STM32 |
-|-----|-------|         |-----|-------|
-| AIN1| PB3   |         | VCC | 3.3V  |
-| AIN2| PB4   |         | SCL | PB8   |
-| BIN1 | PB5 |          | SDA | PB9   |
-| BIN2 | PB6 |          | INT | PC13  |
-| PWMA | PA6 |          | ADO | GND   |
+**TB6612FNG**
+| PIN | STM32 |
+|-----|-------|
+| AIN1| PB3   |
+| AIN2| PB4   |
+| BIN1 | PB5 |
+| BIN2 | PB6 |
+| PWMA | PA6 |
 | PWMB | PA7 |
 | STBY | 3.3V |
 | VM | 7.4V |
