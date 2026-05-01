@@ -12,10 +12,9 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 
 ### Pin Connections
 <table>
-<tr>
+<tr valign="top">
 <td>
 
-<!-- MPU6500 -->
 <table>
   <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td colspan="2" align="center"><b>MPU6500</b></td></tr>
@@ -29,7 +28,6 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </td>
 <td>
 
-<!-- TB6612FNG -->
 <table>
   <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td colspan="2" align="center"><b>TB6612FNG</b></td></tr>
@@ -51,7 +49,6 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </td>
 <td>
 
-<!-- Motors -->
 <table>
   <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td colspan="2" align="center"><b>Motor 1</b></td></tr>
@@ -70,8 +67,12 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 ### Version 1
 Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
 <p>
-  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="49%">
+  <img src="Pictures & Videos/Version 1/v1.1.JPEG" width="49%">
   <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="49%">
+</p>
+<p>
+  <img src="Pictures & Videos/Version 1/v1.3.JPEG" width="49%">
+  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="49%">
 </p>
 [Version 1 Pictures](Pictures%20&%20Videos/Version%201)
 
