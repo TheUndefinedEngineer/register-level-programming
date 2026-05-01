@@ -11,41 +11,36 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - TB6612FNG Motor Driver
 
 ### Pin Connections
-**MPU 6500**
-| PIN | STM32 |
-|-----|-------|
-| VCC | 3.3V  |
-| SCL | PB8   |
-| SDA | PB9   |
-| INT | PC13  |
-| ADO | GND   |
-
-**TB6612FNG**
-| PIN | STM32 |
-|-----|-------|
-| AIN1| PB3   |
-| AIN2| PB4   |
-| BIN1 | PB5 |
-| BIN2 | PB6 |
-| PWMA | PA6 |
-| PWMB | PA7 |
-| STBY | 3.3V |
-| VM | 7.4V |
-| VCC | 3.3V |
-| AO1 | M1.1 |
-| AO2 | M1.2 |
-| BO1 | M2.1 |
-| BO2 | M2.2 |
-
-**Motors**
-| Motor | Pin | STM32 |
-|-------|-----|-------|
-| Motor1 | C1 | PA2 |
-| Motor1 | C2 | PA3 |
-| Motor1 | VCC | 5V |
-| Motor2 | C1 | PB0 |
-| Motor2 | C2 | PB1 |
-| Motor2 | VCC | 5V |
+| Group       | PIN  | STM32 / Connection |
+|-------------|------|--------------------|
+| **MPU6500** |      |                    |
+|             | VCC  | 3.3V               |
+|             | SCL  | PB8                |
+|             | SDA  | PB9                |
+|             | INT  | PC13               |
+|             | ADO  | GND                |
+|**TB6612FNG**|      |                    |
+|             | AIN1 | PB3                |
+|             | AIN2 | PB4                |
+|             | BIN1 | PB5                |
+|             | BIN2 | PB6                |
+|             | PWMA | PA6                |
+|             | PWMB | PA7                |
+|             | STBY | 3.3V               |
+|             | VM   | 7.4V               |
+|             | VCC  | 3.3V               |
+|             | AO1  | M1.1               |
+|             | AO2  | M1.2               |
+|             | BO1  | M2.1               |
+|             | BO2  | M2.2               |
+| **Motor 1** |      |                    |
+|             | C1   | PA2                |
+|             | C2   | PA3                |
+|             | VCC  | 3.3V/5V            |
+| **Motor 2** |      |                    |
+|             | C1   | PB0                |
+|             | C2   | PB1                |
+|             | VCC  | 3.3V/5V            |
 
 ### Version 1
 Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
