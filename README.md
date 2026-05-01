@@ -47,6 +47,12 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 | Motor2 | C2 | PB1 |
 | Motor2 | VCC | 5V |
 
+### Version 1
+Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
+![inital development snapshot - 1](Pictures & Videos/Version 1/v1.4.JPG)
+![inital development snapshot - 1](Pictures & Videos/Version 1/v1.2.JPG)
+![Version 1 Pictures](Pictures & Videos/Version 1) - Version 1 Snapshots
+
 
 ## Tools & Development
 - Debian 13
