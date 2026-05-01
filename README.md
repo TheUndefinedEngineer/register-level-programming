@@ -69,13 +69,33 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </table>
 
 ### Version 1
-Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
+Version 1 I used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
+[Version 1 Snapshots](Snapshots/Version%201)
+
 <p>
-  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="450px" height="300px">
-  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="450px" height="300px">
+  <img src="Snapshots/Version 1/v1.4.jpg" width="500px" height="300px">
+  <img src="Snapshots/Version 1/v1.2.jpeg" width="500px" height="300px">
 </p>
 
-[Version 1 Pictures](Pictures%20&%20Videos/Version%201)
+
+### Version 2.0 & 2.1
+Version 2 I changed the Mini-360 buck to the more standard LM2596 DC-DC buck converters but I wasn't getting 2 different output rails 3.3v and 5v but both output 5v for some reason which I couldn't figure out so, in version 2.1 I removed the 5v buck and wired everything to 3.3v.
+
+The reason I needed 5V was because the motor enocders were labeled VCC and I couldn't find any documentaion on them so, I wanted to see if it will work with 3.3v but still haven't tested it.
+[Version 2.0 & 2.1 Snapshots](Snapshots/Version%202)
+
+<a href = "https://www.youtube.com/watch?v=Q476zTCFYxs">
+  <img src="https://img.youtube.com/vi/Q476zTCFYxs/maxresdefault.jpg" width="60%">
+</a>
+
+### Version 3
+Version 3 is a redo of the whole hardware setup,the previous versions used hand-cut acrylic sheet for the base and oversized bolts&nuts(bought in a hardware store) to connect the PCB with the base which resulted in added weight along with imbalance. Therefore, in this version am using a 3D printed base, M3 screws which fit thourgh the PCB holes and a single non-variable 3.3v buck converter.
+[Version 3 Snapshots](Snapshots/Version%203)
+
+<p>
+  <img src="Snapshots/Version 3/v3.1.jpg" width="500px" height="300px">
+  <img src="Snapshots/Version 3/v3.3.jpg" width="500px" height="300px">
+</p>
 
 
 ## Tools & Development
@@ -86,5 +106,6 @@ Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I fac
 - arm-none-eabi-gcc
 
 ## Current Progress
+- Completed hardware connections but I forgot to redo the circuit diagram.
 - I have gone through the reference manual - sections 2,3,5,6 and 8(a little).
 - Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment.
