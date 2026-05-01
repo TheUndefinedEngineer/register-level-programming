@@ -13,11 +13,11 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 ### Pin Connections
 <table>
 <tr valign="top">
-<td>
+<td style="padding: 25px">
 
 <table>
+  <tr><td colspan="2" align="center"><b>MPU6500</b></td></tr>  
   <tr><th>PIN</th><th>STM32</th></tr>
-  <tr><td colspan="2" align="center"><b>MPU6500</b></td></tr>
   <tr><td>VCC</td><td>3.3V</td></tr>
   <tr><td>SCL</td><td>PB8</td></tr>
   <tr><td>SDA</td><td>PB9</td></tr>
@@ -26,7 +26,7 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </table>
 
 </td>
-<td>
+<td style="padding: 25px">
 
 <table>
   <tr><th>PIN</th><th>STM32</th></tr>
@@ -47,17 +47,21 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </table>
 
 </td>
-<td>
+<td style="padding: 25px">
 
 <table>
-  <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td colspan="2" align="center"><b>Motor 1</b></td></tr>
+  <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td>C1</td><td>PA2</td></tr>
   <tr><td>C2</td><td>PA3</td></tr>
-  <tr><td>VCC</td><td>5V</td></tr>
+  <tr><td>VCC</td><td>3.3/5V</td></tr>
+</table>
+<table>
   <tr><td colspan="2" align="center"><b>Motor 2</b></td></tr>
+  <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td>C1</td><td>PB0</td></tr>
   <tr><td>C2</td><td>PB1</td></tr>
+  <tr><td>VCC</td><td>3.3/5V</td></tr>
 </table>
 
 </td>
@@ -67,13 +71,12 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 ### Version 1
 Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
 <p>
-  <img src="Pictures & Videos/Version 1/v1.1.JPEG" width="49%">
-  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="49%">
-</p>
-<p>
-  <img src="Pictures & Videos/Version 1/v1.3.JPEG" width="49%">
   <img src="Pictures & Videos/Version 1/v1.4.JPG" width="49%">
 </p>
+<p>
+  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="500px">
+</p>
+
 [Version 1 Pictures](Pictures%20&%20Videos/Version%201)
 
 
