@@ -11,41 +11,62 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - TB6612FNG Motor Driver
 
 ### Pin Connections
-| Group       | PIN  | STM32 / Connection |
-|-------------|------|--------------------|
-| **MPU6500** |      |                    |
-|             | VCC  | 3.3V               |
-|             | SCL  | PB8                |
-|             | SDA  | PB9                |
-|             | INT  | PC13               |
-|             | ADO  | GND                |
-|**TB6612FNG**|      |                    |
-|             | AIN1 | PB3                |
-|             | AIN2 | PB4                |
-|             | BIN1 | PB5                |
-|             | BIN2 | PB6                |
-|             | PWMA | PA6                |
-|             | PWMB | PA7                |
-|             | STBY | 3.3V               |
-|             | VM   | 7.4V               |
-|             | VCC  | 3.3V               |
-|             | AO1  | M1.1               |
-|             | AO2  | M1.2               |
-|             | BO1  | M2.1               |
-|             | BO2  | M2.2               |
-| **Motor 1** |      |                    |
-|             | C1   | PA2                |
-|             | C2   | PA3                |
-|             | VCC  | 3.3V/5V            |
-| **Motor 2** |      |                    |
-|             | C1   | PB0                |
-|             | C2   | PB1                |
-|             | VCC  | 3.3V/5V            |
+<table>
+  <tr>
+    <th>PIN</th>
+    <th>STM32 / Connection</th>
+  </tr>
+
+  <!-- MPU6500 -->
+  <tr>
+    <td colspan="2" align="center"><b>MPU6500</b></td>
+  </tr>
+  <tr><td>VCC</td><td>3.3V</td></tr>
+  <tr><td>SCL</td><td>PB8</td></tr>
+  <tr><td>SDA</td><td>PB9</td></tr>
+  <tr><td>INT</td><td>PC13</td></tr>
+  <tr><td>ADO</td><td>GND</td></tr>
+
+  <!-- TB6612FNG -->
+  <tr>
+    <td colspan="2" align="center"><b>TB6612FNG</b></td>
+  </tr>
+  <tr><td>AIN1</td><td>PB3</td></tr>
+  <tr><td>AIN2</td><td>PB4</td></tr>
+  <tr><td>BIN1</td><td>PB5</td></tr>
+  <tr><td>BIN2</td><td>PB6</td></tr>
+  <tr><td>PWMA</td><td>PA6</td></tr>
+  <tr><td>PWMB</td><td>PA7</td></tr>
+  <tr><td>STBY</td><td>3.3V</td></tr>
+  <tr><td>VM</td><td>7.4V</td></tr>
+  <tr><td>VCC</td><td>3.3V</td></tr>
+  <tr><td>AO1</td><td>M1.1</td></tr>
+  <tr><td>AO2</td><td>M1.2</td></tr>
+  <tr><td>BO1</td><td>M2.1</td></tr>
+  <tr><td>BO2</td><td>M2.2</td></tr>
+
+  <!-- Motor 1 -->
+  <tr>
+    <td colspan="2" align="center"><b>Motor 1</b></td>
+  </tr>
+  <tr><td>C1</td><td>PA2</td></tr>
+  <tr><td>C2</td><td>PA3</td></tr>
+  <tr><td>VCC</td><td>5V</td></tr>
+
+  <!-- Motor 2 -->
+  <tr>
+    <td colspan="2" align="center"><b>Motor 2</b></td>
+  </tr>
+  <tr><td>C1</td><td>PB0</td></tr>
+  <tr><td>C2</td><td>PB1</td></tr>
+</table>
 
 ### Version 1
 Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
-![inital development snapshot - 1](Pictures%20&%20Videos/Version%201/v1.4.JPG)
-![inital development snapshot - 2](Pictures%20&%20Videos/Version%201/v1.2.JPEG)
+<p>
+  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="45%">
+  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="45%">
+</p>
 [Version 1 Pictures](Pictures%20&%20Videos/Version%201)
 
 
