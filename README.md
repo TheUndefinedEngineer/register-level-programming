@@ -12,25 +12,27 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 
 ### Pin Connections
 <table>
-  <tr>
-    <th>PIN</th>
-    <th>STM32 / Connection</th>
-  </tr>
+<tr>
+<td>
 
-  <!-- MPU6500 -->
-  <tr>
-    <td colspan="2" align="center"><b>MPU6500</b></td>
-  </tr>
+<!-- MPU6500 -->
+<table>
+  <tr><th>PIN</th><th>STM32</th></tr>
+  <tr><td colspan="2" align="center"><b>MPU6500</b></td></tr>
   <tr><td>VCC</td><td>3.3V</td></tr>
   <tr><td>SCL</td><td>PB8</td></tr>
   <tr><td>SDA</td><td>PB9</td></tr>
   <tr><td>INT</td><td>PC13</td></tr>
   <tr><td>ADO</td><td>GND</td></tr>
+</table>
 
-  <!-- TB6612FNG -->
-  <tr>
-    <td colspan="2" align="center"><b>TB6612FNG</b></td>
-  </tr>
+</td>
+<td>
+
+<!-- TB6612FNG -->
+<table>
+  <tr><th>PIN</th><th>STM32</th></tr>
+  <tr><td colspan="2" align="center"><b>TB6612FNG</b></td></tr>
   <tr><td>AIN1</td><td>PB3</td></tr>
   <tr><td>AIN2</td><td>PB4</td></tr>
   <tr><td>BIN1</td><td>PB5</td></tr>
@@ -44,28 +46,32 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
   <tr><td>AO2</td><td>M1.2</td></tr>
   <tr><td>BO1</td><td>M2.1</td></tr>
   <tr><td>BO2</td><td>M2.2</td></tr>
+</table>
 
-  <!-- Motor 1 -->
-  <tr>
-    <td colspan="2" align="center"><b>Motor 1</b></td>
-  </tr>
+</td>
+<td>
+
+<!-- Motors -->
+<table>
+  <tr><th>PIN</th><th>STM32</th></tr>
+  <tr><td colspan="2" align="center"><b>Motor 1</b></td></tr>
   <tr><td>C1</td><td>PA2</td></tr>
   <tr><td>C2</td><td>PA3</td></tr>
   <tr><td>VCC</td><td>5V</td></tr>
-
-  <!-- Motor 2 -->
-  <tr>
-    <td colspan="2" align="center"><b>Motor 2</b></td>
-  </tr>
+  <tr><td colspan="2" align="center"><b>Motor 2</b></td></tr>
   <tr><td>C1</td><td>PB0</td></tr>
   <tr><td>C2</td><td>PB1</td></tr>
+</table>
+
+</td>
+</tr>
 </table>
 
 ### Version 1
 Version 1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
 <p>
-  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="45%">
-  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="45%">
+  <img src="Pictures & Videos/Version 1/v1.4.JPG" width="49%">
+  <img src="Pictures & Videos/Version 1/v1.2.JPEG" width="49%">
 </p>
 [Version 1 Pictures](Pictures%20&%20Videos/Version%201)
 
