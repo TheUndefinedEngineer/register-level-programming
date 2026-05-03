@@ -29,8 +29,8 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 <td style="padding: 25px">
 
 <table>
-  <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td colspan="2" align="center"><b>TB6612FNG</b></td></tr>
+  <tr><th>PIN</th><th>STM32</th></tr>
   <tr><td>AIN1</td><td>PB3</td></tr>
   <tr><td>AIN2</td><td>PB4</td></tr>
   <tr><td>BIN1</td><td>PB5</td></tr>
@@ -72,7 +72,7 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 Version 1.0 was intented to use 2 seprate PCB's - power board & main board but soon I realised it makes length of the robot very long which is not practical so, in version 1.1 I shifted everyhting to a single PCB. Both 1.0 & 1.1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
 [Version 1 Snapshots](Snapshots/Version%201)
 
-<p>
+<p align="center">
   <img src="Snapshots/Version 1/v1.0.3.jpg" width="500px" height="300px">
   <img src="Snapshots/Version 1/v1.1.2.jpg" width="500px" height="300px">
 </p>
@@ -84,14 +84,18 @@ Version 2.0 I changed the Mini-360 buck to the more standard LM2596 DC-DC buck c
 The reason I needed 5V was because the motor enocders were labeled VCC and I couldn't find any documentaion on them so, I wired them to 5v but not sure see if they will work with 3.3v as I still haven't tested them yet.
 [Version 2.0 & 2.1 Snapshots](Snapshots/Version%202)
 
-<p>
+<p align="center">
   <img src="Snapshots/Version 2/v2.0.1.jpg" width="500px" height="300px">
   <img src="Snapshots/Version 2/v2.1.1.jpg" width="500px" height="300px">
 </p>
 
-<a href = "https://www.youtube.com/watch?v=Q476zTCFYxs">
-  <img src="https://img.youtube.com/vi/Q476zTCFYxs/maxresdefault.jpg" width="60%">
-</a>
+<p align="center">
+  <a href = "https://www.youtube.com/watch?v=Q476zTCFYxs">
+    <img src="https://img.youtube.com/vi/Q476zTCFYxs/maxresdefault.jpg" width="40%">
+  </a>
+</p>
+
+<div align="center"> This is a video click on it! </div>
 
 > [!IMPORTANT]
 > The code for project at this stage was fully AI generated.
@@ -101,9 +105,9 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 [Version 3 Snapshots](Snapshots/Version%203)
 
 <p>
-  <img src="Snapshots/Version 3/v3.0.1.jpg" width="350px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.1.jpg" width="300px" height="300px">
   <img src="Snapshots/Version 3/v3.0.4.jpg" width="400px" height="300px">
-  <img src="Snapshots/Version 3/v3.0.2.jpg" width="400px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.2.jpg" width="500px" height="300px">
 </p>
 
 > [!NOTE]
