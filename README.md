@@ -68,25 +68,32 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </tr>
 </table>
 
-### Version 1
-Version 1 I used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
+### Version 1.0 & 1.1
+Version 1.0 was intented to use 2 seprate PCB's - power board & main board but soon I realised it makes length of the robot very long which is not practical so, in version 1.1 I shifted everyhting to a single PCB. Both 1.0 & 1.1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
 [Version 1 Snapshots](Snapshots/Version%201)
 
 <p>
-  <img src="Snapshots/Version 1/v1.4.jpg" width="500px" height="300px">
-  <img src="Snapshots/Version 1/v1.2.jpeg" width="500px" height="300px">
+  <img src="Snapshots/Version 1/v1.0.3.jpg" width="500px" height="300px">
+  <img src="Snapshots/Version 1/v1.1.2.jpeg" width="500px" height="300px">
 </p>
 
 
 ### Version 2.0 & 2.1
-Version 2 I changed the Mini-360 buck to the more standard LM2596 DC-DC buck converters but I wasn't getting 2 different output rails 3.3v and 5v but both output 5v for some reason which I couldn't figure out so, in version 2.1 I removed the 5v buck and wired everything to 3.3v.
+Version 2.0 I changed the Mini-360 buck to the more standard LM2596 DC-DC buck converters but I wasn't getting 2 different output rails 3.3v and 5v and both rails were outputing 5v for some reason which I couldn't figure out so, in version 2.1 I removed the 5v buck and wired everything to 3.3v which seemed to do the trick.
 
-The reason I needed 5V was because the motor enocders were labeled VCC and I couldn't find any documentaion on them so, I wanted to see if it will work with 3.3v but still haven't tested it.
+The reason I needed 5V was because the motor enocders were labeled VCC and I couldn't find any documentaion on them so, I wired them to 5v but not sure see if they will work with 3.3v as I still haven't tested them yet.
 [Version 2.0 & 2.1 Snapshots](Snapshots/Version%202)
+
+<p>
+  <img src="Snapshots/Version 2/v2.0.1.jpg" width="500px" height="300px">
+  <img src="Snapshots/Version 2/v2.1.1.jpg" width="500px" height="300px">
+</p>
 
 <a href = "https://www.youtube.com/watch?v=Q476zTCFYxs">
   <img src="https://img.youtube.com/vi/Q476zTCFYxs/maxresdefault.jpg" width="60%">
 </a>
+
+> [!important] The code for project at this stage was fully AI generated.
 
 ### Version 3
 Version 3 is a redo of the whole hardware setup,the previous versions used hand-cut acrylic sheet for the base and oversized bolts&nuts(bought in a hardware store) to connect the PCB with the base which resulted in added weight along with imbalance. Therefore, in this version am using a 3D printed base, M3 screws which fit thourgh the PCB holes and a single non-variable 3.3v buck converter.
@@ -97,15 +104,24 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
   <img src="Snapshots/Version 3/v3.3.jpg" width="500px" height="300px">
 </p>
 
+> [!note] Images had to be compressed a lot to reduce total repo size.
 
 ## Tools & Development
 - Debian 13
+- bash
 - Neovim
 - Obsidain
 - Make
 - arm-none-eabi-gcc
 
+## Sources
+- [RM0368 Rev 6 - Reference manual](https://www.st.com/resource/en/reference_manual/rm0368-stm32f401xbc-and-stm32f401xde-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+- [Makefile Guide](https://makefiletutorial.com/#getting-started)
+- [Officail GCC Documentation](https://gcc.gnu.org/onlinedocs/)
+- [Embedded Systems Programming - FastBit Academy](https://www.udemy.com/share/101Wdc3@q3zTlLfVGPCEW4a8bv7NjY2NR9K4dHKtHkx5YzrXL_R7W3licZ7vChKeaS9TfTxH9Q==/)
+
+
 ## Current Progress
-- Completed hardware connections but I forgot to redo the circuit diagram.
+- Completed hardware connections but I forgot to redo the circuit diagram and also I have to search the 3D model which I created.
 - I have gone through the reference manual - sections 2,3,5,6 and 8(a little).
-- Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment.
+- Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment and succesfully compiled an `.elf` file.
