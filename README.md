@@ -102,8 +102,8 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 
 <p>
   <img src="Snapshots/Version 3/v3.0.1.jpg" width="350px" height="300px">
-  <img src="Snapshots/Version 3/v3.0.4.jpg" width="450px" height="300px">
-  <img src="Snapshots/Version 3/v3.0.2.jpg" width="450px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.4.jpg" width="400px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.2.jpg" width="400px" height="300px">
 </p>
 
 > [!NOTE]
