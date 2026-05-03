@@ -1,3 +1,6 @@
 # Build files
 *.o
 *.elf
+
+# Local files
+Snapshots/Ongoing Progress/
