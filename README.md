@@ -74,7 +74,7 @@ Version 1.0 was intented to use 2 seprate PCB's - power board & main board but s
 
 <p>
   <img src="Snapshots/Version 1/v1.0.3.jpg" width="500px" height="300px">
-  <img src="Snapshots/Version 1/v1.1.2.jpeg" width="500px" height="300px">
+  <img src="Snapshots/Version 1/v1.1.2.jpg" width="500px" height="300px">
 </p>
 
 
@@ -93,15 +93,17 @@ The reason I needed 5V was because the motor enocders were labeled VCC and I cou
   <img src="https://img.youtube.com/vi/Q476zTCFYxs/maxresdefault.jpg" width="60%">
 </a>
 
-> [!important] The code for project at this stage was fully AI generated.
+> [!IMPORTANT]
+> The code for project at this stage was fully AI generated.
 
 ### Version 3
 Version 3 is a redo of the whole hardware setup,the previous versions used hand-cut acrylic sheet for the base and oversized bolts&nuts(bought in a hardware store) to connect the PCB with the base which resulted in added weight along with imbalance. Therefore, in this version am using a 3D printed base, M3 screws which fit thourgh the PCB holes and a single non-variable 3.3v buck converter.
 [Version 3 Snapshots](Snapshots/Version%203)
 
 <p>
-  <img src="Snapshots/Version 3/v3.1.jpg" width="500px" height="300px">
-  <img src="Snapshots/Version 3/v3.3.jpg" width="500px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.1.jpg" width="350px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.4.jpg" width="350px" height="300px">
+  <img src="Snapshots/Version 3/v3.0.2.jpg" width="350px" height="300px">
 </p>
 
 > [!note] Images had to be compressed a lot to reduce total repo size.
