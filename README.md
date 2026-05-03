@@ -104,8 +104,8 @@ The reason I needed 5V was because the motor enocders were labeled VCC and I cou
 Version 3 is a redo of the whole hardware setup,the previous versions used hand-cut acrylic sheet for the base and oversized bolts&nuts(bought in a hardware store) to connect the PCB with the base which resulted in added weight along with imbalance. Therefore, in this version am using a 3D printed base, M3 screws which fit thourgh the PCB holes and a single non-variable 3.3v buck converter.
 [Version 3 Snapshots](Snapshots/Version%203)
 
-<p>
-  <img src="Snapshots/Version 3/v3.0.1.jpg" width="300px" height="300px">
+<p align="center">
+  <img src="Snapshots/Version 3/v3.0.1.jpg" width="290px" height="300px">
   <img src="Snapshots/Version 3/v3.0.4.jpg" width="400px" height="300px">
   <img src="Snapshots/Version 3/v3.0.2.jpg" width="500px" height="300px">
 </p>
