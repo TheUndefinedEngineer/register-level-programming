@@ -9,6 +9,7 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - Bonka 7.4V 1300mAh 25C 2S LiPo
 - N20 Micro-gear Motors w/ 34mm wheels
 - TB6612FNG Motor Driver
+- 3D printed base
 
 ### Pin Connections
 <table>
@@ -117,7 +118,7 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 - Debian 13
 - bash
 - Neovim
-- Obsidain
+- Obsidian
 - Make
 - arm-none-eabi-gcc
 
@@ -132,3 +133,5 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 - Completed hardware connections but I forgot to redo the circuit diagram and also I have to search the 3D model which I created.
 - I have gone through the reference manual - sections 2,3,5,6 and 8(a little).
 - Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment and succesfully compiled an `.elf` file.
+- Updated `linker script` to inlcude `ALIGN` and generated memory map - `test.map` to analyze how `.text`, `.data` and `.bss` sections are arranged in memory.
+- Finished the `Reset_Handler()` by loading `.data` to memory and calling `main()`.
