@@ -116,17 +116,22 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 
 ## Tools & Development
 - Debian 13
-- bash
 - Neovim
 - Obsidian
 - Make
 - arm-none-eabi-gcc
+- OpenOCD
+- GBD & Telnet
 
 ## Sources
 - [RM0368 Rev 6 - Reference manual](https://www.st.com/resource/en/reference_manual/rm0368-stm32f401xbc-and-stm32f401xde-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 - [Makefile Guide](https://makefiletutorial.com/#getting-started)
 - [Officail GCC Documentation](https://gcc.gnu.org/onlinedocs/)
 - [Embedded Systems Programming - FastBit Academy](https://www.udemy.com/share/101Wdc3@q3zTlLfVGPCEW4a8bv7NjY2NR9K4dHKtHkx5YzrXL_R7W3licZ7vChKeaS9TfTxH9Q==/)
+- [OpenOCD Installation](https://www.youtube.com/watch?v=FNDp1G0bYoU&t=1029s)
+- [OpenOCD Github](https://github.com/openocd-org/openocd.git)
+- [GDB Commands Cheat Sheet](https://www.yolinux.com/TUTORIALS/GDB-Commands.html)
+- [OpenOCD General Commands](https://openocd.org/doc/html/General-Commands.html)
 
 
 ## Current Progress
@@ -135,3 +140,4 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 - Started writing code - writing my own `Makefile`, `Startup file` and `linker file` at the moment and succesfully compiled an `.elf` file.
 - Updated `linker script` to inlcude `ALIGN` and generated memory map - `test.map` to analyze how `.text`, `.data` and `.bss` sections are arranged in memory.
 - Finished the `Reset_Handler()` by loading `.data` to memory and calling `main()`.
+- Wrote `main.c` to blink the on-board led on `STM32F401CCU6` (PC13). Flashed the code using `openOCD` and `GDB`. Also learnt about `telnet`.
