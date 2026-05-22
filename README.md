@@ -11,7 +11,7 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - TB6612FNG Motor Driver
 - 3D printed base
 
-### Pin Connections
+## Pin Connections
 <table>
 <tr valign="top">
 <td style="padding: 25px">
@@ -68,6 +68,8 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 </td>
 </tr>
 </table>
+
+## Version History
 
 ### Version 1.0 & 1.1
 Version 1.0 was intented to use 2 seprate PCB's - power board & main board but soon I realised it makes length of the robot very long which is not practical so, in version 1.1 I shifted everyhting to a single PCB. Both 1.0 & 1.1 used 2 Mini 360 buck converters for 3.3V and 5V power rails. But I faced the issue of not being able to adjust the voltage and they broke...
