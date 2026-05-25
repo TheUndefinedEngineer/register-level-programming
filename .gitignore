@@ -1,6 +1,8 @@
 # Build files
 *.o
 *.elf
+*.map
+*.list
 
 # Local files
 Snapshots/Ongoing Progress/
