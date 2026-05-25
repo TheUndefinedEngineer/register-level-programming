@@ -11,6 +11,17 @@ To build good habits and reduce my dependence on AI, am going to mainly stick wi
 - TB6612FNG Motor Driver
 - 3D printed base
 
+## Project Structure
+```
+SBR/
+├── Core/           # Source and header files
+├── linker/         # Linker script
+├── Snapshots/      # Progress documentation
+├── stm32f401_ls.ld # Memory layout for STM32F401
+├── Makefile        # Build system
+└── README.md       # Project documentation
+```
+
 ## Pin Connections
 <table>
 <tr valign="top">
@@ -143,3 +154,4 @@ Version 3 is a redo of the whole hardware setup,the previous versions used hand-
 - Updated `linker script` to inlcude `ALIGN` and generated memory map - `test.map` to analyze how `.text`, `.data` and `.bss` sections are arranged in memory.
 - Finished the `Reset_Handler()` by loading `.data` to memory and calling `main()`.
 - Wrote `main.c` to blink the on-board led on `STM32F401CCU6` (PC13). Flashed the code using `openOCD` and `GDB`. Also learnt about `telnet`.
+- Organized file structure and wrote a new `makefile` for the same.
