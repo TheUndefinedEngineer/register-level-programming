@@ -15,9 +15,9 @@ int main(void)
 	*GPIOC_PUPDR = (*GPIOC_PUPDR & ~(0x03 << 26)) | (0x00 << 26);
 	
 	while(1){
-		*GPIOC_BSRR |= (1 << 13);
+		*GPIOC_BSRR = (1 << 13);
 		for(volatile int i = 0; i < 100000; i++);
-		*GPIOC_BSRR |= (1 << (13+16));
+		*GPIOC_BSRR = (1 << (13+16));
 		for(volatile int i = 0; i < 100000; i++);
 	}
 		
